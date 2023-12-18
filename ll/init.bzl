@@ -93,10 +93,10 @@ def _initialize_rules_ll_impl(_):
     http_archive(
         name = "rocr",
         build_file = "@rules_ll//third-party-overlays:rocr.BUILD.bazel",
-        sha256 = "eef185bb551b6b68d51adf9557b0647578963688791efca727e89a5f60da1758",
-        strip_prefix = "ROCR-Runtime-6fdf759273a098829dfd642fb730ea410f33b152",
+        sha256 = "c5a18a9bbcbbceedcdd0db2383f906f12c9348cb4d590f1f845f8236e6d47a95",
+        strip_prefix = "ROCR-Runtime-17b904f609f3e048f7765156c1a9b1ed62cec962",
         urls = [
-            "https://github.com/RadeonOpenCompute/ROCR-Runtime/archive/6fdf759273a098829dfd642fb730ea410f33b152.zip",
+            "https://github.com/RadeonOpenCompute/ROCR-Runtime/archive/17b904f609f3e048f7765156c1a9b1ed62cec962.zip",
         ],
         patches = [
             "@rules_ll//patches:rocr-amd_trap_handler_v2.diff",
