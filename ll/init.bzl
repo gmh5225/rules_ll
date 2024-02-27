@@ -49,10 +49,10 @@ def _initialize_rules_ll_impl(_):
             "
             >> include/hip/hip_version.h""",
         ],
-        sha256 = "e7596b05a6b1b6eee45ee7b365f2f31bddaed4e02352e88d8f06a67ec56d37e9",
-        strip_prefix = "HIP-d579c4d3cab15f7beb2943eddb75dba8877c2be3",
+        sha256 = "99b818a21d885ec86928dddadc973726339c4c1e0f7cfa6147ff0ce9bdfdee9e",
+        strip_prefix = "HIP-28f6712e1cc605cd641950d087f165008b5346cc",
         urls = [
-            "https://github.com/ROCm-Developer-Tools/HIP/archive/d579c4d3cab15f7beb2943eddb75dba8877c2be3.zip",
+            "https://github.com/ROCm-Developer-Tools/HIP/archive/28f6712e1cc605cd641950d087f165008b5346cc.zip",
         ],
     )
 
